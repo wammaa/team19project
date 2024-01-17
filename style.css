@@ -31,3 +31,53 @@
 .l-foot{
     height:290px;
 }
+.l-foot-inside{
+    width:350px;
+}
+.l-foot-icon{
+    color:black;
+    text-align:center;
+
+}
+.l-font12{
+    font-size:12px;
+}
+.l-font25{
+    font-size:25px;
+    font-weight:bolder;
+}
+.l-a{
+    text-decoration:none;
+    color:black;
+    font-weight: bolder;
+}
+.l-text-area{
+    height: 300px;
+    width: 600px;
+    resize: none; 
+        
+}
+.l-input{
+    width:320px;
+}
+.l-res-inside{
+    width:610px;    
+}
+.l-res-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color:#f9f6f6;
+}
+.l-float-l{
+    float:left;
+    clear:left;
+    clear:bottom;
+}
+.l-float-r{
+    float:right;
+}
+.l-bot-bor{
+    border-bottom:1px solid gray;
+}
