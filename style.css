@@ -1,12 +1,20 @@
 .l-nav{
     height:90px;
-    padding:0 15px;
+    padding:0 100px;
     position:fixed;
     z-index:1;
     width:100%;
 }
 .l-nav-center{
     text-align: center;
+}
+.l-mar-r10{
+    padding:0 10px;
+}
+.l-nav-log{
+    width:90px;
+    display:flex;
+    align-items: center;
 }
 .main-top{
     padding-top:90px;
@@ -79,5 +87,5 @@
     float:right;
 }
 .l-bot-bor{
-    border-bottom:1px solid gray;
+    border-bottom:1px solid rgb(172, 171, 171);
 }
