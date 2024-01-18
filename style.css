@@ -1,9 +1,8 @@
 .l-nav{
     height:90px;
     padding:0 100px;
-    position:fixed;
-    z-index:1;
     width:100%;
+    
 }
 .l-nav-center{
     text-align: center;
@@ -21,15 +20,14 @@
 }
 .l-main-img{
     height:460px;
-    background-color: aqua;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width:860px;    
 }
-.img-font{
-    font-size:35px;
-    color:white;
+.img-center{
+    display:flex;
+    justify-content: center;
+}
+.l-drop{
+    width:450px;
 }
 .l-btn{
     border-radius: 500px;
@@ -61,7 +59,7 @@
 }
 .l-text-area{
     height: 300px;
-    width: 600px;
+    width: 610px;
     resize: none; 
         
 }
@@ -76,7 +74,6 @@
     justify-content: center;
     align-items: center;
     height: 800px;
-    background-color:#f9f6f6;
 }
 .l-float-l{
     float:left;
@@ -88,4 +85,8 @@
 }
 .l-bot-bor{
     border-bottom:1px solid rgb(172, 171, 171);
+}
+.l-btn-cor{
+    background-color: #f8f9fa;
+    color:black;
 }
