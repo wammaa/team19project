@@ -2,7 +2,7 @@
     height:90px;
     padding:0 100px;
     width:100%;
-    
+   
 }
 .l-nav-center{
     text-align: center;
@@ -73,7 +73,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    
 }
 .l-float-l{
     float:left;
@@ -89,4 +89,18 @@
 .l-btn-cor{
     background-color: #f8f9fa;
     color:black;
+}
+.l-text-ver{
+    text-align:left;
+}
+.l-mob-res{
+    display:none;
+}
+@media screen and (max-width:48rem){
+    .l-res-box{
+        transform:scale(0.7);
+    }
+    .l-main-img{
+        width:100%;
+    }
 }
