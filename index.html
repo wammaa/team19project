@@ -18,46 +18,27 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary l-nav">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
-          <div class="l-nav-log">
-            <a class="navbar-brand" href="#"><h1>상호명</h1></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <a class="navbar-brand" href="#"><img src="https://4094d519-eaff-4ac7-ba5a-2a4f4fc1feb8-00-3rs7uxzaswwpv.pike.replit.dev/image/logo_logo.png" height="50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          </div>
-          <div class="text-center">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item l-font25 l-mar-r10">
-                  <a class="nav-link" href="#">메뉴1</a>
-                </li>
-                <li class="nav-item l-font25 l-mar-r10">
-                  <a class="nav-link" href="#">메뉴2</a>
-                </li>
-                <li class="nav-item l-font25 l-mar-r10">
-                  <a class="nav-link" href="#">메뉴3</a>
-                </li>
-                <li class="nav-item l-font25 l-mar-r10">
-                  <a class="nav-link" href="#">메뉴4</a>
-                </li>
-                <li class="nav-item l-font25 l-mar-r10">
-                  <a class="nav-link" href="#">메뉴5</a>
-                </li>
-              </ul>            
-            </div>
-          </div>
-          <div class="l-nav-log">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link l-mr" href="#">로그인</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link l-mr" href="#">맛집 등록</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link l-mr" href="#">별점과 후기</a>
+              </li>
+            </ul>
             <form class="d-flex" role="search">
-              <a href="#"><h2><i class="fa-solid fa-user"></i></h2></a>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>

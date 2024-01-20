@@ -15,6 +15,9 @@
     display:flex;
     align-items: center;
 }
+.l-mr{
+    margin-right:1rem;
+}
 .main-top{
     padding-top:90px;
 }
@@ -93,9 +96,7 @@
 .l-text-ver{
     text-align:left;
 }
-.l-mob-res{
-    display:none;
-}
+
 @media screen and (max-width:48rem){
     .l-res-box{
         transform:scale(0.7);
