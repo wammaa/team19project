@@ -15,6 +15,16 @@
     background-color: #bf9017;
     border-color:#bf9017;
 }
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: white;
+    background-color:  #bf9017;
+    border-color:  #bf9017;
+}
+input::placeholder {
+  font-size: 14px;
+  line-height: center;
+}
+
 .btsas{
     width:69px;
 }
@@ -22,8 +32,7 @@
     margin-right:0.5rem;
 }
 .l-main-img{
-    height:460px;
-    width:860px;    
+    height:1236px;   
 }
 .img-center{
     display:flex;
@@ -68,7 +77,7 @@
     height: 300px;
     width: 610px;
     resize: none; 
-        
+
 }
 .l-input{
     width:320px;
@@ -80,7 +89,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 .l-float-l{
     float:left;
@@ -100,13 +109,27 @@
 .l-text-ver{
     text-align:left;
 }
-
+.logo-height{
+    height:50px;
+}
 @media screen and (max-width:48rem){
     .l-res-box{
         transform:scale(0.6);
     }
     .l-main-img{
         width:100%;
+    }
+    .l-bar{
+        background-color: #bfae82;
+        color: white;
+        height: 13vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 0 !important;
+    }
+    .logo-height{
+        height:40px;
     }
 }
 .aaa{
@@ -116,5 +139,5 @@
     justify-content: center;
     align-items: center;
     padding:48px 0;
-    
+
 }
