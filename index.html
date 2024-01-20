@@ -10,6 +10,34 @@
 </head>
 <body>
 
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand me-3" href="#">
+        <img src="./images/logo_logo.png" class="park-logo-height">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link me-3" href="https://5380ca2a-c983-4daf-866c-34a35404a0ab-00-14s912i13fbsm.pike.replit.dev/">로그인</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#">맛집 등록</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#">별점과 후기</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="지역, 메뉴, 상호명 입력" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">검색</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
   <main>
     <div class="main-container">
       <div class="headline">
@@ -26,11 +54,11 @@
         <input class="search_style ps-5 pe-5" type="text" placeholder="맛집을 검색해주세요!">
         <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
         <div class="main-list">
-          <span>부산맛집</span>
+          <a href="#" class="main-list-item">부산맛집</a>          
           <span>|</span>
-          <span>경주맛집</span>
+          <a href="#" class="main-list-item">경주맛집</a>
           <span>|</span>
-          <span>포항맛집</span>
+          <a href="#" class="main-list-item">포항맛집</a>
           <span>|</span>
           <span class="fw-bold">진해맛집</span>
         </div>
@@ -52,13 +80,23 @@
             <p>경상남도 창원시 진해구 이동 400-3</p>          
           </div>
         </a>
+      </div>     
+
+      <div class="image-container col-lg-4 col-md-6 col-xsm-12">
+        <a href="#">
+          <img class="img-item" src="./images/simyaramen.jpg" alt="Simya-ramen">    
+          <p class="name">겐쇼심야라멘</p>
+          <div class="overlay-text">
+            <h3>타코야키랑 같이 먹으면 더 맛나요!</h3>
+            <p>경상남도 창원시 진해구 경화동 1200-5</p>          
+          </div>
+        </a>
       </div>
 
-      
       <div class="image-container col-lg-4 col-md-6 col-xsm-12">
         <a href="#">
           <img class="img-item" src="./images/seongsook.jpg" alt="Simya-ramen">    
-          <p class="name">성숙</p>
+          <p class="name">성 숙</p>
           <div class="overlay-text">
             <h3>목살 육즙이 미쳤다..</h3>
             <p>경상남도 창원시 진해구 자은동 800-3</p>          
@@ -68,11 +106,11 @@
 
       <div class="image-container col-lg-4 col-md-6 col-xsm-12">
         <a href="#">
-          <img class="img-item" src="./images/simyaramen.jpg" alt="Simya-ramen">    
-          <p class="name">겐쇼심야라멘</p>
+          <img class="img-item" src="./images/banita.jpg" alt="Banita">    
+          <p class="name">파스타바니타</p>
           <div class="overlay-text">
-            <h3>타코야키랑 같이 먹으면 더 맛나요!</h3>
-            <p>경상남도 창원시 진해구 경화동 1200-5</p>          
+            <h3>파스타 맛집!</h3>
+            <p>경상남도 창원시 진해구 석동 513-4</p>
           </div>
         </a>
       </div>
@@ -98,17 +136,7 @@
           </div>
         </a>
       </div>
-
-      <div class="image-container col-lg-4 col-md-6 col-xsm-12">
-        <a href="#">
-          <img class="img-item" src="./images/banita.jpg" alt="Banita">    
-          <p class="name">파스타바니타</p>
-          <div class="overlay-text">
-            <h3>파스타 맛집!</h3>
-            <p>경상남도 창원시 진해구 석동 513-4</p>
-          </div>
-        </a>
-      </div>
+      
     </div>
 
   </div>
@@ -124,7 +152,7 @@
                   <a href="#" class=" l-foot-icon"><h3><i class="fa-solid fa-mug-saucer"></i></h3></a>
                 </div>
                 <div class="col">
-                  <a href="#" class=" l-foot-icon"><h3><i class="fa-regular fa-star"></i></h3></a>
+                  <a href="#" class=" l-foot-icon"><h3><i class="fa-brands fa-facebook"></i></h3></a>
                 </div>
             </div>
 
@@ -132,10 +160,10 @@
               <div class="text-center">                    
                 <div class="l-font12">상호 : 찐추맛</div>
                 <div class="l-font12">대표 : 박상희</div>
-                <div class="l-font12">사업자등록번호: 박상희</div>
-                <div class="l-font12">주소 : 대구광역시 중구 중앙대로 66길 20</div>
-                <div class="l-font12">메일 : capchl44@naver.com</div>
-                <div class="l-font12">문의 : @capchul44 (인스타그램)</div>                                        
+                <div class="l-font12">사업자등록번호: 133-26-00000</div>
+                <div class="l-font12">주소 : 경상도</div>
+                <div class="l-font12">메일 : jjinchoomat@gmail.com</div>
+                <div class="l-font12">문의 : @jjinchoomat</div>                                        
               </div>
               <div class="row text-center pt-5">
                 <div class="col"><a href="#" class="l-font12 l-a">이용약관</a></div>

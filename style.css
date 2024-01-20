@@ -1,11 +1,60 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   margin: 0px;
-  font-family: spotify-circular, Helvetica, Arial, sans-serif;  
+  font-family: Noto Sans, Noto Sans KR, sans-serif, "malgun gothic", "Apple SD Gothic Neo", 맑은고딕, 돋움, Dotum, Helvetica, sans-serif;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none  
+}
+
+.park-logo-height {
+  height: 50px;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+.navbar {
+  background-color:white;
+}
+
+.nav-link:hover {
+  color: #bf9017;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+input::placeholder {
+  font-size: 14px;
+  line-height: center;
+}
+
+.btn {
+  width: 69px;
+}
+
+.btn-outline-success {
+  color: #bf9017;
+  border-color: #bf9017;
+}
+
+.btn-outline-success:hover {
+  background-color: #bf9017;
+  border-color: #bf9017;
+  color: white;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: white;
+    background-color:  #bf9017;
+    border-color:  #bf9017;
 }
 
 main {
@@ -59,7 +108,8 @@ main {
 
 .search-area {
   text-align: center;
-  position: relative;
+  position: relative;  
+  left: 20px;
   bottom: 5rem;  
   background: transparent;
   border-radius: 0;
@@ -101,7 +151,13 @@ main {
   font-size: 30px;
   text-align: center;
   position: relative;
-  top: 5rem;  
+  top: 5rem;
+  right: 10px;  
+}
+
+.main-list-item:hover {
+  font-weight: bold;
+  color: #BFAE82;
 }
 
 .main-list-pick {
@@ -130,13 +186,16 @@ main {
 }
 
 .name {
-  position: relative;
+  position: absolute;
+  left: 70%;  
+  z-index: 2;
   bottom: 10px;
-  color: black;
+  color: white;
   font-size: large;
-  font-weight: 700;
-  text-align: center;
-}
+  font-weight: 1000;
+  text-align: center;  
+  padding: 20px;
+  }
 
 .list_content {
   text-align: center;  
@@ -145,7 +204,8 @@ main {
 .img-item {
   width: 600px;
   height: 400px;
-  padding: 28px 17px;  
+  padding: 28px 17px; 
+  z-index: 1; 
 }
 
 .l-foot{
@@ -169,6 +229,10 @@ main {
 }
 
 @media screen and (max-width:48rem) {
+  .headline {
+    font-size: 50px;
+  }
+
   .main-list {
     font-size: 20px;
   }
