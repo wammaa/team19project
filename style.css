@@ -58,8 +58,7 @@ input::placeholder {
 }
 
 main {
-  height: 968px;
-  background-color: rgb(41,65,171);
+  height: 968px;  
   background-image: url("./images/back11_720.png");
   background-position: 46% 4%;
   display: flex;
